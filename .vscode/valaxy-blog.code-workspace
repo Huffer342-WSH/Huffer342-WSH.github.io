@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "..",
+			"name": "valaxy-blog"
+		},
+		{
+			"path": "../pages/posts",
+			"name": "posts"
+		},
+		{
+			"path": "../pages/posts/radar",
+			"name": "radar"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.css": "postcss"
+		}
+	}
+}

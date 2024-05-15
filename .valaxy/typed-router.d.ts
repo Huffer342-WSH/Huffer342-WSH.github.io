@@ -27,8 +27,13 @@ declare module 'vue-router/auto-routes' {
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/your-first-post': RouteRecordInfo<'/posts/your-first-post', '/posts/your-first-post', Record<never, never>, Record<never, never>>,
+    '/posts/radar/arrival-vector': RouteRecordInfo<'/posts/radar/arrival-vector', '/posts/radar/arrival-vector', Record<never, never>, Record<never, never>>,
+    '/posts/radar/Capon-algorithm': RouteRecordInfo<'/posts/radar/Capon-algorithm', '/posts/radar/Capon-algorithm', Record<never, never>, Record<never, never>>,
+    '/posts/radar/LFMCW-radar-principle': RouteRecordInfo<'/posts/radar/LFMCW-radar-principle', '/posts/radar/LFMCW-radar-principle', Record<never, never>, Record<never, never>>,
+    '/posts/radar/MUSIC-algorithm': RouteRecordInfo<'/posts/radar/MUSIC-algorithm', '/posts/radar/MUSIC-algorithm', Record<never, never>, Record<never, never>>,
+    '/posts/radar/project/LFMCW-radar-receiving-signal-simulation': RouteRecordInfo<'/posts/radar/project/LFMCW-radar-receiving-signal-simulation', '/posts/radar/project/LFMCW-radar-receiving-signal-simulation', Record<never, never>, Record<never, never>>,
+    '/posts/README': RouteRecordInfo<'/posts/README', '/posts/README', Record<never, never>, Record<never, never>>,
+    '/posts/some-details/transpose-in-matlab': RouteRecordInfo<'/posts/some-details/transpose-in-matlab', '/posts/some-details/transpose-in-matlab', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
