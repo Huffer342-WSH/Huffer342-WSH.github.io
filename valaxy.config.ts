@@ -1,6 +1,8 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 
+// import { addonAlgolia } from 'valaxy-addon-algolia'
+
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -16,35 +18,32 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   themeConfig: {
     banner: {
-      enable: true,
+      enable: false,
       title: '云游君的小站',
       cloud: {
         enable: true,
       },
     },
 
-    pages: [
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
-    ],
+
 
     footer: {
       since: 2016,
       beian: {
-        enable: true,
+        enable: false,
         icp: '苏ICP备17038157号',
       },
     },
+
+    menu:{
+      custom:{
+        title: "hello",
+        url: "hello",
+        icon: "hello",
+
+      }
+
+    }
   },
 
   unocss: { safelist },

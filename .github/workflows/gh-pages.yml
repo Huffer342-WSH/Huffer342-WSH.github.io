@@ -1,8 +1,9 @@
-name: GitHub Pages
+name: Deploy Valaxy site to GitHub Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:[valaxy]
+    branches: [valaxy]
 
 
 jobs:
@@ -17,6 +18,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: checkout all the submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive      
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
