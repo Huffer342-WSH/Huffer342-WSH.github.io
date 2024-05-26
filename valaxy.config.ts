@@ -1,12 +1,11 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 
+
+import { addonWaline } from 'valaxy-addon-waline'
 // import { addonAlgolia } from 'valaxy-addon-algolia'
 
-// add icons what you will need
-const safelist = [
-  'i-ri-home-line',
-]
+
 
 /**
  * User Config
@@ -16,35 +15,27 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
 
-  themeConfig: {
-    banner: {
-      enable: false,
-      title: '云游君的小站',
-      cloud: {
-        enable: true,
-      },
+  siteConfig: {
+    // 启用评论
+    comment: {
+      enable: true
     },
-
-
-
-    footer: {
-      since: 2016,
-      beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
-      },
-    },
-
-    menu:{
-      custom:{
-        title: "hello",
-        url: "hello",
-        icon: "hello",
-
-      }
-
-    }
   },
 
-  unocss: { safelist },
+   // 设置 valaxy-addon-waline 配置项
+   addons: [
+    addonWaline({
+      serverURL: 'https://waline-deploy-on-vercel.vercel.app/',
+      pageview: true,
+      comment: true,
+    }),
+  ],
+
+
+
+  unocss: {
+    safelist: [
+      'i-ri-home-line',
+    ],
+  },
 })

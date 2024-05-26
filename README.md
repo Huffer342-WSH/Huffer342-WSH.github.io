@@ -1,51 +1,34 @@
-# create-valaxy
+# Valaxy博客
 
-Example: [valaxy.site](https://valaxy.site)
+感谢[云游君](https://github.com/YunYouJun)的[Valaxy](https://github.com/YunYouJun/valaxy)。KaTeX开箱即用，非常的方便。
 
-## Usage
 
-```bash
-# install
-npm i
-# or pnpm i
+## 使用方法
 
-# start
-npm run dev
-# or pnpm dev
+### git clone
+文章和一些代码放在一个子库里 https://github.com/Huffer342-WSH/myNotes ， 所以要加 ```--recursive```
+
+```shell
+git clone --recursive https://github.com/Huffer342-WSH/Huffer342-WSH.github.io.git
 ```
 
-See `http://localhost:4859/`, have fun!
+### 安装 Node.js
 
-### Config
+[https://nodejs.org/en](https://nodejs.org/en)
 
-Modify `valaxy.config.ts` to custom your blog.
+### 安装packages
 
-English & Chinese Docs is coming!
-
-> Wait a minute.
-
-### Docker
-
-```bash
-docker build . -t your-valaxy-blog-name:latest
+```shell
+npm i -g pnpm
 ```
 
-## Structure
+```shell
+pnpm i
+```
 
-In most cases, you only need to work in the `pages` folder.
+### 更新packages
 
-### Main folders
 
-- `pages`: your all pages
-  - `posts`: write your posts here, will be counted as posts
-- `styles`: override theme styles, `index.scss`/`vars.csss`/`index.css` will be loaded automatically
-- `components`: custom your vue components (will be loaded automatically)
-- `layouts`: custom layouts (use it by `layout: xxx` in md)
-- `locales`: custom i18n
-
-### Other
-
-- `.vscode`: recommend some useful plugins & settings, you can preview icon/i18n/class...
-- `.github`: GitHub Actions to auto build & deploy to GitHub Pages
-- `netlify.toml`: for [netlify](https://www.netlify.com/)
-- `vercel.json`: for [vercel](https://vercel.com/)
+```shell
+pnpm up --latest -i
+```
