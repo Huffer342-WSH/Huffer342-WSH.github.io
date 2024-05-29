@@ -16,6 +16,9 @@ export default defineSiteConfig({
 
   description: ' ',
 
+  // 代码块高度限制
+  codeHeightLimit:500,
+
   mediumZoom: { enable: true },
 
   social: [
@@ -29,31 +32,7 @@ export default defineSiteConfig({
   ],
 
 
-
-  sponsor: {
-    enable: false,
-    title: '我很可爱，请给我钱！',
-    methods: [
-      {
-        name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
-        color: '#00A3EE',
-        icon: 'i-ri-alipay-line',
-      },
-      {
-        name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-      {
-        name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
-        color: '#2DC100',
-        icon: 'i-ri-wechat-pay-line',
-      },
-    ],
-  },
+  favicon: "https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io/public/favicon.png",
 
   search: {
     enable: true,
