@@ -35,6 +35,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation': RouteRecordInfo<'/posts/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation', '/posts/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation', Record<never, never>, Record<never, never>>,
     '/posts/README': RouteRecordInfo<'/posts/README', '/posts/README', Record<never, never>, Record<never, never>>,
     '/posts/some-details/transpose-in-matlab': RouteRecordInfo<'/posts/some-details/transpose-in-matlab', '/posts/some-details/transpose-in-matlab', Record<never, never>, Record<never, never>>,
+    '/posts/tools/Convert_images_in_markdown_files_to_webp': RouteRecordInfo<'/posts/tools/Convert_images_in_markdown_files_to_webp', '/posts/tools/Convert_images_in_markdown_files_to_webp', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
