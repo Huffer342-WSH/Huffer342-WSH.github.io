@@ -8,7 +8,7 @@ export default defineSiteConfig({
 
   author: {
     name: 'Huffer',
-    avatar:'https://avatars.githubusercontent.com/u/78366424?v=4',
+    avatar:'https://avatars.githubusercontent.com/u/78366424',
     status: {
       emoji: '😅',
     },
