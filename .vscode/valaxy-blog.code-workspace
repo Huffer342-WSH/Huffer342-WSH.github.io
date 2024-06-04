@@ -9,7 +9,11 @@
 			"name": "posts"
 		},
 		{
-			"path": "../pages/posts/radar",
+			"path": "../pages/posts/myNotes",
+			"name": "myNotes"
+		},
+		{
+			"path": "../pages/posts/myNotes/radar",
 			"name": "radar"
 		}
 	],
