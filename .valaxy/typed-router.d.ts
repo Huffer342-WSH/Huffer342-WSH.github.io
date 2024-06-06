@@ -27,6 +27,7 @@ declare module 'vue-router/auto-routes' {
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
+    '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/mcu/Port-freertos-to-gd32': RouteRecordInfo<'/posts/myNotes/mcu/Port-freertos-to-gd32', '/posts/myNotes/mcu/Port-freertos-to-gd32', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/radar/arrival-vector': RouteRecordInfo<'/posts/myNotes/radar/arrival-vector', '/posts/myNotes/radar/arrival-vector', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/radar/Capon-algorithm': RouteRecordInfo<'/posts/myNotes/radar/Capon-algorithm', '/posts/myNotes/radar/Capon-algorithm', Record<never, never>, Record<never, never>>,
