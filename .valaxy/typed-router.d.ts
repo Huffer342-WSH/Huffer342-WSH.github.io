@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/myNotes/README': RouteRecordInfo<'/posts/myNotes/README', '/posts/myNotes/README', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/some-details/repair-linux-grub': RouteRecordInfo<'/posts/myNotes/some-details/repair-linux-grub', '/posts/myNotes/some-details/repair-linux-grub', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/some-details/transpose-in-matlab': RouteRecordInfo<'/posts/myNotes/some-details/transpose-in-matlab', '/posts/myNotes/some-details/transpose-in-matlab', Record<never, never>, Record<never, never>>,
+    '/posts/myNotes/some-details/use-git-in-vscode': RouteRecordInfo<'/posts/myNotes/some-details/use-git-in-vscode', '/posts/myNotes/some-details/use-git-in-vscode', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp': RouteRecordInfo<'/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp', '/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp', Record<never, never>, Record<never, never>>,
     '/posts/resource': RouteRecordInfo<'/posts/resource', '/posts/resource', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
