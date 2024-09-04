@@ -12,6 +12,8 @@ excerpt: 保存一些资源链接
 
 [HAProxy 实现同一端口代理不同的后端服务](https://www.haxi.cc/archives/nginx-and-haproxy-port-reuse.html)
 
+[ubuntu 安装xrdp远程桌面脚本](https://c-nergy.be/blog/?p=19814)
+
 ---
 
 守望先锋练枪房代码（地图攻防-室内）： VAXTA
