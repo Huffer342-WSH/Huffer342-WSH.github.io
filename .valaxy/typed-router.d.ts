@@ -45,6 +45,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio': RouteRecordInfo<'/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio', '/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/some-details/transpose-in-matlab': RouteRecordInfo<'/posts/myNotes/some-details/transpose-in-matlab', '/posts/myNotes/some-details/transpose-in-matlab', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp': RouteRecordInfo<'/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp', '/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp', Record<never, never>, Record<never, never>>,
+    '/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches': RouteRecordInfo<'/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches', '/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches', Record<never, never>, Record<never, never>>,
     '/posts/resource': RouteRecordInfo<'/posts/resource', '/posts/resource', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
