@@ -1,11 +1,14 @@
 import { defineThemeConfig } from 'valaxy-theme-yun/node'
 export default defineThemeConfig({
+  type: 'strato',
+
     banner: {
         enable: false,
-        title: '😅',
+      title: '',
         cloud: {
-          enable: true,
+          enable: false,
         },
       },
+
  
 })
