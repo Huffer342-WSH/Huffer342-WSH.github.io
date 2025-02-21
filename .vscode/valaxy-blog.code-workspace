@@ -1,8 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "..",
-			"name": "valaxy-blog"
+			"name": "valaxy-blog",
+			"path": ".."
+		},
+		{
+			"name": "myNotes",
+			"path": "../pages/posts/myNotes"
+		},
+		{
+			"name": "path2offer",
+			"path": "../pages/posts/myNotes/path2offer"
 		}
 	],
 	"settings": {
