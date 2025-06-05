@@ -2,13 +2,13 @@
 
 :root {
   /* 背景图片 */
-    --yun-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/bg-light.webp");
+    --yun-bg-img: url(../public/bg-light.webp);
 
   /* 左侧边栏背景图片 */
-    --yun-sidebar-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/sidebar-light.webp");
+    --yun-sidebar-bg-img: url("../public/sidebar-light.webp");
 
   /* 右侧边栏背景图片 */
-    --yun-aside-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/aside-light.webp");
+    --yun-aside-bg-img: url("../public/aside-light.webp");
 
   /* 文章背景颜色 */
     --va-c-bg-light: rgba(255, 255, 255, 0.7);
@@ -19,11 +19,11 @@
   }
 
 .dark {
-  --yun-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/bg-dark.webp");
+  --yun-bg-img: url("../public/bg-dark.webp");
 
-  --yun-sidebar-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/sidebar-dark.webp");
+  --yun-sidebar-bg-img: url("../public/sidebar-dark.webp");
 
-  --yun-aside-bg-img: url("https://cdn.jsdelivr.net/gh/Huffer342-WSH/Huffer342-WSH.github.io@gh-pages/aside-dark.webp");
+  --yun-aside-bg-img: url("../public/aside-dark.webp");
 
 
   --va-c-bg-light: rgba(0, 0, 0, 0.8);

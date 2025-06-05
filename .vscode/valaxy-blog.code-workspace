@@ -18,6 +18,7 @@
 			"*.css": "postcss"
 		},
 		"editor.formatOnSave": true,
-		"editor.formatOnSaveMode": "modificationsIfAvailable"
+		"editor.formatOnSaveMode": "modificationsIfAvailable",
+		"git.alwaysSignOff": false
 	}
 }

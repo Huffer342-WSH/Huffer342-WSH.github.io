@@ -58,6 +58,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/myNotes/path2offer/': RouteRecordInfo<'/posts/myNotes/path2offer/', '/posts/myNotes/path2offer', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/path2offer/bytedance_server_firmware': RouteRecordInfo<'/posts/myNotes/path2offer/bytedance_server_firmware', '/posts/myNotes/path2offer/bytedance_server_firmware', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/path2offer/c_io': RouteRecordInfo<'/posts/myNotes/path2offer/c_io', '/posts/myNotes/path2offer/c_io', Record<never, never>, Record<never, never>>,
+    '/posts/myNotes/path2offer/interview_exp': RouteRecordInfo<'/posts/myNotes/path2offer/interview_exp', '/posts/myNotes/path2offer/interview_exp', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/path2offer/linux_kernel': RouteRecordInfo<'/posts/myNotes/path2offer/linux_kernel', '/posts/myNotes/path2offer/linux_kernel', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/path2offer/mcu': RouteRecordInfo<'/posts/myNotes/path2offer/mcu', '/posts/myNotes/path2offer/mcu', Record<never, never>, Record<never, never>>,
     '/posts/myNotes/path2offer/mcu_ldscript': RouteRecordInfo<'/posts/myNotes/path2offer/mcu_ldscript', '/posts/myNotes/path2offer/mcu_ldscript', Record<never, never>, Record<never, never>>,
