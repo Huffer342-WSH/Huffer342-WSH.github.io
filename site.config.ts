@@ -28,7 +28,7 @@ export default defineSiteConfig({
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
-    
+
   ],
 
 
