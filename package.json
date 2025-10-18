@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "critters": "^0.0.25",
+    "highlight.js": "^11.11.1",
     "valaxy": "0.22.17",
     "valaxy-addon-waline": "0.2.1",
     "valaxy-theme-yun": "0.22.17"
