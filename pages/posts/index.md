@@ -5,10 +5,9 @@ date: 2024-05-15 17:59:03
 excerpt: 文章索引
 top: 999
 ---
-
 [播客主页](https://huffer342-wsh.github.io)
 
-这个博客用于记录生活和学习，顺便提前写一些东西来应付每周组会 :sweat_smile:
+这个博客用于记录生活和学习，顺便提前写一些东西来应付~~每周组会 😅~~
 
 ## 博客框架
 
@@ -19,14 +18,24 @@ top: 999
 侧边来和背景的图片都来自[骨钉工作室](https://weibo.com/u/7770991002)的[《犹格索托斯的庭院》](https://store.steampowered.com/app/2194530/_/)。
 ![犹格索托斯的庭院](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2194530/header.jpg?t=1716378276)
 
-
 ## 毫米波雷达相关
 
+> **均已烂尾**
+
 [LFMCM雷达工作原理](./myNotes/radar/LFMCW-radar-principle.md)
- 
+
 [LFMCW毫米波雷达接收信号仿真](./myNotes/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation.md)
 
 [Capon算法算法](./myNotes/radar/Capon-algorithm.md),DOA入门的第一个算法
 
-
 [MUSIC算法](./myNotes/radar/MUSIC-algorithm.md),一种高分辨率的DOA算法，某些情况下四舍五入等于Capon算法.
+
+研究生期间的一些代码：
+
+- [LFMCW-Radar-DSP_C-Language](https://github.com/Huffer342-WSH/LFMCW-Radar-DSP_C-Language) C/C++些的信号处理和目标跟跟踪
+- [ lfmcw_radar_dsp](https://github.com/Huffer342-WSH/lfmcw_radar_dsp) 和C代码配套的python代码，在写C之前验证用的
+
+## 常用
+
+- [git常用指令](./myNotes/guide/use-git-in-vscode.md)
+- [ZSH美化](./myNotes/guide/zsh.md)
