@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Huffer's blog</title>
+        <link>https://huffer342-wsh.github.io/</link>
+        <description> </description>
+        <lastBuildDate>Thu, 13 Aug 2026 09:22:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Huffer's blog</title>
+            <url>https://avatars.githubusercontent.com/u/78366424</url>
+            <link>https://huffer342-wsh.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © Huffer</copyright>
+        <atom:link href="https://huffer342-wsh.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[修复Ghostty AppImage无法使用Fcitx5中文输入法]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/ghostty-appimage-fcitx5</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/ghostty-appimage-fcitx5</guid>
+            <pubDate>Thu, 13 Aug 2026 14:54:42 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在Ubuntu 22.04的X11会话中运行Ghostty AppImage时，Fcitx5可以切换输入法，但无法在Ghostty中输入中文，其他应用不受影响。</p>
+<p>本文使用的Ghostty 1.3.</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/ghostty-appimage-fcitx5" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/ghostty-appimage-fcitx5</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[资源收藏]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/resource</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/resource</guid>
+            <pubDate>Thu, 13 Aug 2026 09:21:26 GMT</pubDate>
+            <content:encoded><![CDATA[<p>adobe资源 m0nkrus</p>
+<p><a href="https://www.build-python-from-source.com/">Python源码编译脚本</a></p>
+<p>[ubuntu 安装xrdp远程桌面脚本](h</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/resource" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/resource</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[在 Linux 下直接运行 Windows 分区中的游戏]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/Linux玩游戏</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/Linux玩游戏</guid>
+            <pubDate>Thu, 04 Jun 2026 23:38:15 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我的电脑采用的是 Windows + Linux 双系统。平时的工作、学习都在 Linux 下完成，而游戏则全部安装在 Windows 系统的 NTFS 分区中。</p>
+<p>由于我不想为了清日常（原神、终末</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/Linux玩游戏" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/Linux玩游戏</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用 vLLM 本地部署 Qwen3.6 并接入 OpenCode 与 VSCode]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/部署千问</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/部署千问</guid>
+            <pubDate>Fri, 01 May 2026 18:20:23 GMT</pubDate>
+            <content:encoded><![CDATA[<p>本文记录在本地 GPU 服务器上使用 vLLM 部署 <strong>Qwen3.6-35B-A3B</strong>，并通过 OpenAI 兼容接口接入 OpenCode 和 VSCode 的过程。</p>
+<p>整体流程：</p>
+<ol>
+<li>使</li>
+</ol>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/部署千问" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/部署千问</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[OBS 与 FFmpeg 参数设置]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/OBS与FFmpeg参数设置</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/OBS与FFmpeg参数设置</guid>
+            <pubDate>Mon, 20 Apr 2026 14:25:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>录制视频时，使用 CQP 码率控制可以优先保证画质；离线处理时，再用 CRF 重新编码，可以进一步减小文件体积。</p>
+<p>如果录好的视频体积过大，需要发给别人，可以用 FFmpeg 重新编码一次。</p>
+<h2></h2>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/OBS与FFmpeg参数设置" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/OBS与FFmpeg参数设置</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于如何复制Chatgpt回复为Markdown格式]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/复制ChatGPT回复为Markdown格式</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/复制ChatGPT回复为Markdown格式</guid>
+            <pubDate>Fri, 03 Apr 2026 16:59:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>省流</h2>
+<p>装插件，我本来用的[ChatGPT &amp; Gemini Markdown Copy](<a href="https://chromewebstore.google.com/detail/chatgpt-g">https://chromewebstore.google.com/detail/chatgpt-g</a></p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/复制ChatGPT回复为Markdown格式" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/复制ChatGPT回复为Markdown格式</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Google Antigravity设置代理]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/antigravity-proxy</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/antigravity-proxy</guid>
+            <pubDate>Sun, 18 Jan 2026 19:06:42 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>本地使用设置代理</h2>
+<p><a href="https://github.com/yuaotian/antigravity-proxy">antigravity-proxy@yuaotian</a></p>
+<h2>SSH时给</h2>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/antigravity-proxy" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/antigravity-proxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[单一公网端口服务器的访问方案：HAProxy 流量分流与 WireGuard 隧道]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/HAProxy-WG-Proxy</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/HAProxy-WG-Proxy</guid>
+            <pubDate>Fri, 28 Nov 2025 14:28:38 GMT</pubDate>
+            <content:encoded><![CDATA[<p>假设一个内网的服务器只有一个端口映射到离公网，目前希望实现的功能为：</p>
+<ol>
+<li>通过HAProxy实现SSH、RDP、HTTP分流，使用公网IP+端口直接访问这三种功能</li>
+<li>wireguard虚拟局域</li>
+</ol>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/HAProxy-WG-Proxy" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/HAProxy-WG-Proxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于Gist原始文件URL]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/some-details/gist_url</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/some-details/gist_url</guid>
+            <pubDate>Sat, 18 Oct 2025 13:45:43 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>问题</h2>
+<p>在Gist网页上点击raw得到的原始文件URL是指向固定版本的而不是最新版本，不像Github上点击raw会得到一个只想head的URL</p>
+<p>![Gist raw botton](./a</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/some-details/gist_url" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/some-details/gist_url</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[在QEMU中运行Linux]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/run_linux_in_qemu</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/run_linux_in_qemu</guid>
+            <pubDate>Wed, 15 Oct 2025 20:10:04 GMT</pubDate>
+            <content:encoded><![CDATA[<p>该文记录一个在qemu中运行linux的简单案例。过程为：</p>
+<ol>
+<li>编译安装qemu-system-riscv64</li>
+<li>编译OpenSBI</li>
+<li>编译Linux kernel</li>
+<li>使用Build</li>
+</ol>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/run_linux_in_qemu" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/run_linux_in_qemu</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux内核调试]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/debug</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/debug</guid>
+            <pubDate>Tue, 14 Oct 2025 18:19:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>printk()</h2>
+<h3>工作原理</h3>
+<p>源文件<code>kernel/printk/printk.c</code></p>
+<p>printk()将消息写入环形缓冲区，然后读取消息输出到<strong>控制台</strong>。</p>
+<p>在`print</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/debug" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/debug</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[虚函数的应用]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/C_Cpp/virtual</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/C_Cpp/virtual</guid>
+            <pubDate>Sun, 28 Sep 2025 15:32:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>使用</h2>
+<p>一般情况下，使用指针访问普通成员函数时，会使用指针所指类型的成员函数。<br>
+但是使用指针访问虚成员函数时，调用的时指针指向的对象的真实类型。</p>
+<p>测试用例如下：</p>
+<pre><code class="language-c">#include</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/C_Cpp/virtual" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/C_Cpp/virtual</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux调度器介绍]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/scheduler</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/scheduler</guid>
+            <pubDate>Tue, 23 Sep 2025 11:08:26 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Linux内核提供可以下调度算法</p>
+<pre><code class="language-c">#define SCHED_OTHER		0
+#define SCHED_FIFO		1
+#define SCHED_RR		2
+#define SC</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/scheduler" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/scheduler</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何给各种软件设置代理和换源]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/how_to_setup_proxy</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/how_to_setup_proxy</guid>
+            <pubDate>Mon, 22 Sep 2025 10:53:13 GMT</pubDate>
+            <content:encoded><![CDATA[<p>以下均用 <code>127.0.0.1:7890</code>代替代理的地址</p>
+<h2>git</h2>
+<pre><code class="language-sh">git config --global http.proxy http://127.0.0.1:7890
+git</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/how_to_setup_proxy" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/how_to_setup_proxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux中断]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/Interrupt</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/Interrupt</guid>
+            <pubDate>Mon, 22 Sep 2025 10:34:25 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>概述</h2>
+<p>很多资料将中断处理分为上半部和下半部，一般上半部是指在硬中断中执行的，下半部是指通过各种方式延迟执行的。</p>
+<ul>
+<li>上半部保证该中断服务函数的实时性</li>
+<li>下半部则缩短硬中断的时间，确保了</li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/Interrupt" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/Interrupt</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[安装ZSH]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/zsh</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/zsh</guid>
+            <pubDate>Tue, 05 Aug 2025 15:19:56 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一键[安装脚本](<a href="https://gist.githubusercontent.com/Huffer342-WSH/3d42fcb5ebbedcf2d47fe3dfea033739/raw/i">https://gist.githubusercontent.com/Huffer342-WSH/3d42fcb5ebbedcf2d47fe3dfea033739/raw/i</a></h2>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/zsh" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/zsh</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[nuttx启动流程]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/nuttx/nx_start</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/nuttx/nx_start</guid>
+            <pubDate>Tue, 05 Aug 2025 15:09:06 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>arm_head.S</h2>
+<p>arm_head.S中的__start() 是CPU启动入口，内容如下</p>
+<h3>1. 多核处理（CONFIG_NCPUS &gt; 1时）</h3>
+<ul>
+<li>获取CPU索引（MPIDR寄</li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/nuttx/nx_start" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/nuttx/nx_start</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[通过拟合计算提高FFT幅度谱求频率的分辨率]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/FFT_frequency_interpolation</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/FFT_frequency_interpolation</guid>
+            <pubDate>Sat, 05 Jul 2025 13:33:02 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. 问题描述</h2>
+<p>当信号为单一频率成分，但其频率不在FFT分辨率点上时，无法直接通过FFT幅度谱峰值点获得精确频率。</p>
+<p>在单一信号频率无噪声的情况下，幅度谱的‘形状’只和频率有关，和信号的幅度与</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/FFT_frequency_interpolation" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/FFT_frequency_interpolation</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[记录一些shell指令]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/scripts</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/scripts</guid>
+            <pubDate>Tue, 01 Jul 2025 10:16:45 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>搜索静态库并查找符号</h3>
+<pre><code class="language-sh">find . -name &quot;*.a&quot; -exec sh -c 'nm &quot;$0&quot; | grep -E &quot; [Tt] get&quot; &amp;&amp; echo &quot;Define</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/scripts" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/scripts</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Windows下的类unix shell]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/unix-like_shell_in_windows</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/unix-like_shell_in_windows</guid>
+            <pubDate>Sat, 28 Jun 2025 11:45:25 GMT</pubDate>
+            <content:encoded><![CDATA[<p>由于习惯问题，想要在windows使用类unix的shell。在网上搜了一堆都是些wsl和msys的方案，最后在<a href="https://starship.rs/zh-CN/">Starship</a>发现了一些</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/unix-like_shell_in_windows" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/unix-like_shell_in_windows</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[在VSCode中使用clangd插件]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/vscode_clangd</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/vscode_clangd</guid>
+            <pubDate>Mon, 23 Jun 2025 10:51:48 GMT</pubDate>
+            <content:encoded><![CDATA[<ol>
+<li>安装 Clangd 插件</li>
+<li>生成<code>compile_commands.json</code>文件</li>
+<li>额外设置</li>
+</ol>
+<h2>1. 安装 Clangd 插件</h2>
+<p>[llvm-vs-code-extension</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/vscode_clangd" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/vscode_clangd</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Nuttx文档翻译：《按需分页》/《On-Demand Paging》]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/nuttx/On-Demand-Paging_zh-CN</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/nuttx/On-Demand-Paging_zh-CN</guid>
+            <pubDate>Thu, 12 Jun 2025 10:35:54 GMT</pubDate>
+            <content:encoded><![CDATA[<p>原文[《🏠/OS Components/On-Demand Paging》](<a href="https://nuttx.apache.org/docs/latest/components/paging.html">https://nuttx.apache.org/docs/latest/components/paging.html</a></p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/nuttx/On-Demand-Paging_zh-CN" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/nuttx/On-Demand-Paging_zh-CN</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[nsh启动应用的过程]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/nuttx/nsh_run_app_process</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/nuttx/nsh_run_app_process</guid>
+            <pubDate>Mon, 09 Jun 2025 14:24:28 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>函数调用</h2>
+<p><strong>用户空间：</strong></p>
+<ul>
+<li>nsh_session()
+<ul>
+<li>nsh_parse()
+<ul>
+<li>nsh_parse_command()
+<ul>
+<li>nsh_execute()</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/nuttx/nsh_run_app_process" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/nuttx/nsh_run_app_process</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux内核启动流程]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/kernel_boot_process</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/kernel_boot_process</guid>
+            <pubDate>Mon, 07 Apr 2025 15:07:52 GMT</pubDate>
+            <content:encoded><![CDATA[<p>ARM 平台下的 Linux 内核启动流程大致分为 <strong>Bootloader 阶段</strong> 和 <strong>内核启动阶段（汇编和 C 语言部分）</strong>，最终进入 <strong>用户空间</strong>。</p>
+<h2>一、Bootloa</h2>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/kernel_boot_process" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/kernel_boot_process</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux内核识别设备的方式]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/device_Identification</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/device_Identification</guid>
+            <pubDate>Thu, 03 Apr 2025 12:57:44 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在操作系统启动之前吗，由负责启动内核的bootloader将设备信息传递给操作系统。</p>
+<p>传递信息的方式有两种：</p>
+<ul>
+<li>
+<p><strong>设备树（Device Tree）</strong>：</p>
+<p>静态，预编译设备树文件</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/device_Identification" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/device_Identification</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[DRM框架下LCD驱动编写(Xilinx版)]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drm_xilinx</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drm_xilinx</guid>
+            <pubDate>Wed, 02 Apr 2025 19:30:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>直接渲染管理器(Direct Rendering Manager,DRM)，用户空间程序可以通过DRM API使用GPU。</p>
+<p>在Zynq7010上搭建LCD显示接口时，Xilinx提供了IP核和对</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drm_xilinx" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drm_xilinx</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发与竞争]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/concurrency&amp;competition</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/concurrency&amp;competition</guid>
+            <pubDate>Wed, 02 Apr 2025 18:56:02 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/concurrency&competition" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/concurrency&competition</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[基于 Xilinx DRM 显示管线的 ATK LCD 驱动与背光集成复盘]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/基于 Xilinx DRM 显示管线的 ATK LCD 驱动与背光集成复盘</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/基于 Xilinx DRM 显示管线的 ATK LCD 驱动与背光集成复盘</guid>
+            <pubDate>Wed, 02 Apr 2025 16:12:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. 项目概述</h2>
+<p>提交 <code>f8a827267b34794a70ddcc657c218943b4f6518a</code> 的核心目标，是在 Zynq 平台上补齐一条可落地的 LCD 显示链路，让系统不只是</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/基于 Xilinx DRM 显示管线的 ATK LCD 驱动与背光集成复盘" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/基于 Xilinx DRM 显示管线的 ATK LCD 驱动与背光集成复盘</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[FT5426触摸屏驱动 —— 基于I2C和Input框架]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_input_touchscreen</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_input_touchscreen</guid>
+            <pubDate>Tue, 01 Apr 2025 20:39:05 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>芯片简述</h2>
+<p>FT5426是一款支持TypeB类型多点触控的电容式触摸控制器</p>
+<blockquote>
+<ul>
+<li>Type A：适用于触摸点不能被区分或者追踪</li>
+<li>Type B：适用于有硬件追踪并能区分触摸点的触摸设</li>
+</ul>
+</blockquote>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_input_touchscreen" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_input_touchscreen</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux I2C框架 核心层简介]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_core</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_core</guid>
+            <pubDate>Tue, 01 Apr 2025 16:24:24 GMT</pubDate>
+            <content:encoded><![CDATA[<ol>
+<li><strong>i2c-core-base.c</strong>
+<ul>
+<li><strong>功能</strong>：实现 I2C 核心层最基本的功能，包括适配器（adapter）和设备（client）的注册、注销以及消息传输接口（例如 i</li>
+</ul>
+</li>
+</ol>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_core" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_core</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux I2C框架 —— struct i2c_msg 解析]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_msg</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_msg</guid>
+            <pubDate>Tue, 01 Apr 2025 16:11:50 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在 Linux I2C 驱动中，<code>struct i2c_msg</code> 结构体用于描述 I2C 传输中的一条消息。每个消息都包含从设备地址、操作标志、数据长度以及数据缓冲区指针。结构体中的 `flags</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_msg" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/i2c_msg</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 . MCU. 链接脚本]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_ldscript</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_ldscript</guid>
+            <pubDate>Fri, 28 Mar 2025 15:21:32 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>链接脚本的作用</h2>
+<p>链接脚本（Linker Script）的作用解析<br>
+链接脚本是编译链接阶段的核心配置文件，用于指导链接器（如 GNU <code>ld</code>）如何组织目标文件（<code>.o</code>）的代码和数据，生成最终</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_ldscript" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_ldscript</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 . MCU . Cortex-M启动脚本分析]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_startup</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_startup</guid>
+            <pubDate>Fri, 28 Mar 2025 15:11:07 GMT</pubDate>
+            <content:encoded><![CDATA[<p>以下代代码是<code>startup_gd32f3x0.s</code>的text.Reset_Handler代码段</p>
+<pre><code class="language-asm">    .section	.text.Reset_Handler
+	.weak	Re</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_startup" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu_startup</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 . Cortex-M 简述]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu</guid>
+            <pubDate>Fri, 28 Mar 2025 14:38:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>链接脚本</h2>
+<p>链接脚本指定了各个段的位置</p>
+<h2>Cortex-M启动</h2>
+<p><strong>连接脚本与启动</strong><br>
+- 各种固件库中都会提供类似<code>startup_&lt;device&gt;.s</code>的汇编文件，称</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/mcu</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 . 操作系统 . 内存管理]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/os_memory</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/os_memory</guid>
+            <pubDate>Thu, 27 Mar 2025 19:01:47 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>虚拟地址</h2>
+<ul>
+<li>意义：为了使进程之间的内存地址互相隔离。</li>
+<li>原理：MMU提供硬件支持，操作系统管理虚拟地址</li>
+</ul>
+<h2>分段 &amp; 分页</h2>
+<p>分段和分页机制和硬件加密相关</p>
+<h3>分段</h3>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/os_memory" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/os_memory</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 —— 索引]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/index</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/index</guid>
+            <pubDate>Wed, 26 Mar 2025 15:27:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>学习进度</h2>
+<ul>
+<li>
+<p>[ ]  计算机基础</p>
+<ul>
+<li>[ ] 操作系统
+<ul>
+<li>[] 小林coding</li>
+<li>[] 王道考研-操作系统</li>
+</ul>
+</li>
+<li>[ ] 计网</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/index" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记 . Linux内核 . 函数]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/linux_kernel</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/linux_kernel</guid>
+            <pubDate>Sat, 22 Mar 2025 17:31:15 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>kmalloc</h2>
+<p>Linux内核中的<code>kmalloc</code>函数详解</p>
+<p><code>kmalloc</code>是Linux内核中用于动态分配内存的核心函数之一，适用于内核空间的小块连续内存分配。其设计目标是为驱动程序</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/linux_kernel" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/linux_kernel</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[求职笔记. C语言 . IO]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/path2offer/c_io</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/path2offer/c_io</guid>
+            <pubDate>Sat, 22 Mar 2025 17:23:01 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>文件IO</h2>
+<p>一、C语言文件指针</p>
+<p>文件指针是C语言中用于操作文件的核心概念，本质是一个指向<code>FILE</code>结构体的指针。该结构体由标准库定义（位于<code>stdio.h</code>），包含文件描述符、</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/path2offer/c_io" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/path2offer/c_io</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux驱动开发概览]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drivers_overview</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drivers_overview</guid>
+            <pubDate>Thu, 20 Mar 2025 20:14:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Linux驱动开发方法概览：从寄存器操作到框架集成</h1>
+<h2>一、原始寄存器级驱动开发</h2>
+<h3>1.1 核心原理与实现</h3>
+<p>直接通过代码操作硬件寄存器，适用于无标准框架支持的早期开发或简单</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drivers_overview" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/drivers_overview</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[设备树语法概览]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/dts_overview</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/dts_overview</guid>
+            <pubDate>Thu, 20 Mar 2025 17:06:33 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、设备树基础语法</h2>
+<p>设备树（Device Tree）是一种描述硬件资源的树状数据结构，采用文本格式（.dts/.dtsi）和二进制格式（.dtb）。其核心语法规则如下：</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/dts_overview" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/dts_overview</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[linux内核头文件概览]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/header_overview</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/header_overview</guid>
+            <pubDate>Fri, 14 Mar 2025 16:11:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>linux驱动开发常用的头文件</h2>
+<h3>目录介绍</h3>
+<p>一、核心头文件目录结构</p>
+<ol>
+<li>通用内核头文件目录
+<ul>
+<li>路径：<code>include/linux/</code></li>
+<li>功能：包含与硬件</li>
+</ul>
+</li>
+</ol>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/header_overview" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/embedded-linux/header_overview</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[解决 [Vivado 12-8300] Launch HLS failed! Please see vitis_hls.log for details.]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/vivado_error_[Vivado_12-8300]</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/vivado_error_[Vivado_12-8300]</guid>
+            <pubDate>Fri, 21 Feb 2025 20:14:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>传送门</h2>
+<p>[《导出 IP 无效，实参/版本号溢出问题 (Y2K22)》](<a href="https://adaptivesupport.amd.com/s/article/76960?language=z">https://adaptivesupport.amd.com/s/article/76960?language=z</a></p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/vivado_error_[Vivado_12-8300]" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/vivado_error_[Vivado_12-8300]</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[优化bash]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/optimize_bash</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/optimize_bash</guid>
+            <pubDate>Sun, 29 Dec 2024 18:55:15 GMT</pubDate>
+            <content:encoded><![CDATA[<p>没有shell兼容问题时，建议使用<a href="https://www.zsh.org/">zsh</a>和<a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a>。</p>
+<h2></h2>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/optimize_bash" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/optimize_bash</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[VSCode中按照文件名查找文件]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/some-details/list_find_in_vscode</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/some-details/list_find_in_vscode</guid>
+            <pubDate>Sun, 15 Dec 2024 16:26:28 GMT</pubDate>
+            <content:encoded><![CDATA[<div style="text-align: center;">
+  <img src="https://huffer342-wsh.github.io/posts/myNotes/some-details/assets/list_find_in_vscode.png" alt="description" s<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/some-details/list_find_in_vscode" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/some-details/list_find_in_vscode</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[数据关联-全局最近邻]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/Data_Association-Global_Nearest_Neighbor</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/Data_Association-Global_Nearest_Neighbor</guid>
+            <pubDate>Fri, 22 Nov 2024 11:35:06 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在多目标跟踪中，数据关联是指将最新的检测结果和被跟踪目标的预测状态关联起来。全局最近邻算法可以说是有用的算法里最简单的。</p>
+<p>全局最近邻算法的核心思想是全局优化，通过考虑所有的观测和候选目标，找到一</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/Data_Association-Global_Nearest_Neighbor" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/Data_Association-Global_Nearest_Neighbor</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[解决CMake在使用MSVC时构建打印大量包含信息的问题]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/Solve_the_problem_of_CMake_printing_a_lot_of_included_information_when_building_with_MSVC</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/Solve_the_problem_of_CMake_printing_a_lot_of_included_information_when_building_with_MSVC</guid>
+            <pubDate>Mon, 28 Oct 2024 16:58:40 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>解决方案</h2>
+<pre><code class="language-cmake">if(MSVC)
+    message(STATUS &quot;Using MSVC&quot;)
+
+    # 关闭警告 C4819: 无效的字符。避免中文注释被警告
+</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/Solve_the_problem_of_CMake_printing_a_lot_of_included_information_when_building_with_MSVC" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/Solve_the_problem_of_CMake_printing_a_lot_of_included_information_when_building_with_MSVC</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[petalinux在配置rootfs时添加lrzsz]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/zynq/add_lrzsz_in_rootfs</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/zynq/add_lrzsz_in_rootfs</guid>
+            <pubDate>Tue, 08 Oct 2024 15:24:52 GMT</pubDate>
+            <content:encoded><![CDATA[<p>开发板在没有网的情况下就只能用串口传文件了，因为串口是用来与终端通信了，所以可以用lrzsz来传文件。</p>
+<p>petalinux在制作rootfs时可以添加很多软件，做出来的镜像启动后就能直接用这些程序</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/zynq/add_lrzsz_in_rootfs" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/zynq/add_lrzsz_in_rootfs</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[petalinux设计流程]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/zynq/Petalinux_design_process</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/zynq/Petalinux_design_process</guid>
+            <pubDate>Fri, 04 Oct 2024 20:12:43 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. 激活环境</h2>
+<p>在petalinux的安装目录下有一个<code>setting.sh</code>脚本用于激活环境</p>
+<pre><code class="language-shell">source &lt;petalinux安装路径&gt;/setting.sh
+</code></pre>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/zynq/Petalinux_design_process" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/zynq/Petalinux_design_process</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[优化PowerShell]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/Optimizing_PowerShell</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/Optimizing_PowerShell</guid>
+            <pubDate>Thu, 03 Oct 2024 19:55:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>PowerShell Prompt的美化方案可选<a href="https://ohmyposh.dev/">Oh-My-Posh</a>和<a href="https://Starship.rs/">Starship</a>， Starsh</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/Optimizing_PowerShell" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/Optimizing_PowerShell</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用NFS将服务端文件挂载到客户端]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/nfs</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/nfs</guid>
+            <pubDate>Sun, 22 Sep 2024 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近写python代码跑起来有点慢，想要使用服务器来跑。不过我有想要文件存在我的电脑上，所以选择使用NFS将本地文件挂载到远程服务器上，然后用VSCode连接远程服务器上写代码。</p>
+<p>NFS（Net</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/nfs" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/nfs</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用LiveCD修复Ubuntu的GRUB]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/repair-linux-grub</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/repair-linux-grub</guid>
+            <pubDate>Thu, 19 Sep 2024 14:38:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>捣鼓往移动硬盘里装系统的时候一不小心把系统引导搞丢了，导致一开机就进了Grub的命令行界面，而不是正常的选系统界面。这个时候我的系统已经装在硬盘里了，只不过引导出了问题，所以可以在Grub的命令行界面手动引导系统。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/repair-linux-grub" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/repair-linux-grub</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[python脚本批量修改文本文件的编码格式]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches</guid>
+            <pubDate>Wed, 18 Sep 2024 15:16:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>狗屎vivado自带的文本编辑器不能改编码格式，而且linux里是utf-8，在中文的windows下面是gbk。</p>
+<p>脚本内容如下：<br>
+[change_encoding.py](<a href="https://raw">https://raw</a></p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/tools/Python_scripts_modify_the_encoding_format_of_text_files_in_batches</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[对比numpy.arange 和 numpy.linspace]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/some-details/compare_numpy_arange_and_linspace</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/some-details/compare_numpy_arange_and_linspace</guid>
+            <pubDate>Thu, 12 Sep 2024 15:40:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我写的一个用来生成雷达仿真信号的函数中偶然出现了数组运算时大小不匹配的问题，最后排查到是np.arange的问题。np.arange在步长是浮点数，且终点时步长的整数倍时，有时会因为浮点数的精度问题</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/some-details/compare_numpy_arange_and_linspace" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/some-details/compare_numpy_arange_and_linspace</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[WSL2中安装Vivado]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/install_vivado_in_wsl</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/install_vivado_in_wsl</guid>
+            <pubDate>Tue, 10 Sep 2024 14:44:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>众所周知Vivado综合和布线非常的慢，而且windows下的vivado比linux里装的慢不少，不过可以使用高性能的远程主机加速编译，恰好实验室有一台装了ubuntu的工作站，因此想试一试。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/install_vivado_in_wsl" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/install_vivado_in_wsl</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[比较相位差法和Capon算法在1发2收雷达系统下的差别]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/Compare_Capon_and_PhaseDiff_algorithm_in_1T2R_Radar</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/Compare_Capon_and_PhaseDiff_algorithm_in_1T2R_Radar</guid>
+            <pubDate>Fri, 06 Sep 2024 20:39:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>对于多通道的雷达，可以通过波束成型或者是一些基于子空间的方法实现多目标分类和高分辨率测角。但是当雷达只有两个通道的时候，直觉上就感觉这些DOA算法都会退化到和相位差法一样。</p>
+<p>就像一元线性回归的时候</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/Compare_Capon_and_PhaseDiff_algorithm_in_1T2R_Radar" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/Compare_Capon_and_PhaseDiff_algorithm_in_1T2R_Radar</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[WSL2中安装Cuda和Pytorch]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/Install_Cuda_and_pytorch_in_WSL</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/Install_Cuda_and_pytorch_in_WSL</guid>
+            <pubDate>Sat, 31 Aug 2024 21:55:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考资料：来自<a href="https://www.gongsunqi.xyz/">公孙启</a>的文章[《Windows11 + WSL Ubuntu + Pycharm + Conda for deeplearn</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/Install_Cuda_and_pytorch_in_WSL" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/Install_Cuda_and_pytorch_in_WSL</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[GNU-Radio中ZMQ模块的Pass-Tags]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio</guid>
+            <pubDate>Fri, 12 Jul 2024 18:24:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>GNU-Radio中可以用ZMQ模块实时输数据给其他程序，相比UDP模块更加稳定。</p>
+<p><img src="https://huffer342-wsh.github.io/posts/myNotes/some-details/assets/ZMQ-PUB-Sink-Block-in-GNURadio.png" alt="alt text"></p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/some-details/the-format-of-the-Passtags-of-the-ZMQ-module-in-GNURadio</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[在VSCode中使用Git管理项目]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/use-git-in-vscode</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/use-git-in-vscode</guid>
+            <pubDate>Sat, 29 Jun 2024 18:10:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近大量的代码都是用vscode写的，不管是单片机还是FPGA或者是matlab，虽然各自有各自的IDE，但是写代码还是VSCode好用。<br>
+vscode中的GitLens拓展给VSCode增加了很多Git操作，该文主要记录一些VSCode中常用的Git指令</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/use-git-in-vscode" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/use-git-in-vscode</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[论文阅读——初步学习基于雷达的生命体征监测（呼吸、心跳检测）]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/Paper-Reading_FMCW_Radar_Heartbeat_detection</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/Paper-Reading_FMCW_Radar_Heartbeat_detection</guid>
+            <pubDate>Tue, 04 Jun 2024 16:29:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我先找到了这篇2023年的论文[[1]《Noncontact Cardiac Activity Detection Based on Single-Channel ISM Band FMCW Rad</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/Paper-Reading_FMCW_Radar_Heartbeat_detection" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/Paper-Reading_FMCW_Radar_Heartbeat_detection</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Grub手动引导linux]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/guide/Manually_booting_the_Linux_kernel_from_GRUB</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/guide/Manually_booting_the_Linux_kernel_from_GRUB</guid>
+            <pubDate>Mon, 03 Jun 2024 16:26:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>捣鼓往移动硬盘里装系统的时候一不小心把系统引导搞丢了，导致一开机就进了Grub的命令行界面，而不是正常的选系统界面。这个时候我的系统已经装在硬盘里了，只不过引导出了问题，所以可以在Grub的命令行界面手动引导系统。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/guide/Manually_booting_the_Linux_kernel_from_GRUB" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/guide/Manually_booting_the_Linux_kernel_from_GRUB</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[将markdown文件中的图片转化为webp]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp</guid>
+            <pubDate>Sat, 01 Jun 2024 16:40:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>为了加快网页加载速度，想把博客中的图片压缩成webp格式的。所以写了一个python脚本用来压缩并替换markdown文件中引用的图片。</p>
+<p>脚本的GitHub地址：[convert_images_t</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/tools/Convert_images_in_markdown_files_to_webp</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[GD32移植FreeRTOS]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/mcu/Port-freertos-to-gd32</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/mcu/Port-freertos-to-gd32</guid>
+            <pubDate>Tue, 28 May 2024 19:38:03 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>模板</h2>
+<p><a href="https://github.com/Huffer342-WSH/GD32_FreeRTOS_templete">GD32_FreeRTOS_templete</a></p>
+<h2>下载源码</h2>
+<p>F</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/mcu/Port-freertos-to-gd32" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/mcu/Port-freertos-to-gd32</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[LFMCW毫米波雷达接收信号仿真]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation</guid>
+            <pubDate>Wed, 22 May 2024 17:54:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近开始学毫米波雷达测角，先写了两个LFMCW雷达接收信号仿真的matlab函数：</p>
+<ul>
+<li>[lfmcw_signal_generator.m](<a href="https://github.com/Huffer34">https://github.com/Huffer34</a></li>
+</ul>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/project/doc/1_LFMCW-radar-receiving-signal-simulation</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[matlab 中的转置]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/some-details/transpose-in-matlab</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/some-details/transpose-in-matlab</guid>
+            <pubDate>Sun, 19 May 2024 19:35:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>再一次通过fft计算列向量频谱时，遇到了频谱非0部分关于中心翻转了的现象，经过排查后才发现是共轭转置导致的。</p>
+<p>常用的转置符号<code>'</code>，其实是共轭转置。由于我时域共轭了，导致频域中心对称翻转共</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/some-details/transpose-in-matlab" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/some-details/transpose-in-matlab</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[到达矢量 (Arrival vector)]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/arrival-vector</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/arrival-vector</guid>
+            <pubDate>Sun, 19 May 2024 09:55:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>在阵列信号处理中，常常使用到达矢量来描述同一个信号被不同天线接收到时的差距——时间差、相位差。波束形成和波达方向估计都需要用到达矢量。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/arrival-vector" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/arrival-vector</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[Capon算法（MVDR 波束形成器）原理与简单仿真]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/Capon-algorithm</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/Capon-algorithm</guid>
+            <pubDate>Fri, 17 May 2024 20:12:36 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Capon算法，也称为最小方差无失真响应（Minimum Variance Distortionless Response, MVDR）波束形成器。Capon算法的主要目标是通过调整阵列天线的加权系数，使得在期望信号方向上保持无失真响应，同时最小化来自其他方向的干扰和噪声能量。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/Capon-algorithm" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/Capon-algorithm</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[INDEX]]></title>
+            <link>https://huffer342-wsh.github.io/posts/index</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/index</guid>
+            <pubDate>Wed, 15 May 2024 17:59:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p><a href="https://huffer342-wsh.github.io">播客主页</a></p>
+<p>这个博客用于记录生活和学习，顺便提前写一些东西来应付<s>每周组会 😅</s></p>
+<h2>博客框架</h2>
+<p>[云游君](https</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/index" target="_blank">https://huffer342-wsh.github.io/posts/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[学习笔记——索引页]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/README</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/README</guid>
+            <pubDate>Wed, 15 May 2024 17:59:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p><a href="https://huffer342-wsh.github.io">博客</a>的子模块，主要用于放一些学习相关的笔记。</p>
+<h2>毫米波雷达相关</h2>
+<p>[LFMCM雷达工作原理](./radar/LFMCW</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/README" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/README</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[MUSIC算法]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/MUSIC-algorithm</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/MUSIC-algorithm</guid>
+            <pubDate>Wed, 15 May 2024 17:59:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>MUSIC算法是一种基于子空间分解的频谱方法，通过对信号子空间进行分析，能够准确地估计出多个信号的到达方向。</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/MUSIC-algorithm" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/MUSIC-algorithm</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+        <item>
+            <title><![CDATA[LFMCM雷达工作原理]]></title>
+            <link>https://huffer342-wsh.github.io/posts/myNotes/radar/LFMCW-radar-principle</link>
+            <guid isPermaLink="false">https://huffer342-wsh.github.io/posts/myNotes/radar/LFMCW-radar-principle</guid>
+            <pubDate>Tue, 14 May 2024 13:59:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>调频连续波(Frequency Modulated Continuous Wave)雷达在交通领域、室内定位等一些民用领域应用较多。线性调频连续波（LFMCW，Linear Frequency Mod</p>
+<br/><p>访问 <a href="https://huffer342-wsh.github.io/posts/myNotes/radar/LFMCW-radar-principle" target="_blank">https://huffer342-wsh.github.io/posts/myNotes/radar/LFMCW-radar-principle</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Huffer)</author>
+        </item>
+    </channel>
+</rss>

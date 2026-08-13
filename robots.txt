@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huffer342-wsh.github.io/sitemap.xml
